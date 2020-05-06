@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.headers{
+    background:linear-gradient(rgba(22, 22, 29, 0.5),rgba(20, 20, 27, 0.5)),url(04.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+} 
+.navi{
+    
+    width: 100%;
+    
+}
+.navi ul{
+    float: right;
+    margin:0;
+    padding-right: 30px;
+
+}
+.navi ul li{
+    display: inline-block;
+   padding: 10px;
+   margin: 10px;
+
+}
+.navi ul li a{
+    text-decoration: none;
+    color: cornsilk;
+
+}
+.titles
+{
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: cornsilk;
+}
+.mainbody 
+{
+   text-align: center;
+}
+.mainbody img{
+    max-width:420px ;
+    max-height: 420px;
+    position: relative;
+    margin: 5px;
+    
+}
+.mainbody img:hover{
+  
+    max-width:440px ;
+    max-height: 440px;
+
+}
